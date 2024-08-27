@@ -203,7 +203,7 @@ python ~/scripts/damidseq_pipeline/find_peaks/find_peaks.py <bedgraph_file> --fd
 
 ## 4.1 使用seqplots软件绘制profile图和结合热图
 
-seqplots是一个基于R语言和shiny的交互式绘图软件。安装方式参考https://przemol.github.io/seqplots/。使用时，需要准备：
+seqplots是一个基于R语言和shiny的交互式绘图软件。使用时，需要准备：
 
 1.  第二步得到的bedgraph文件。
 2.  第三步得到的显著峰分配的基因列表
