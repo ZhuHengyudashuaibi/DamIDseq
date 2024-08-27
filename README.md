@@ -1,15 +1,3 @@
----
-title: "DCL Bulk RNAseq Pipeline文档"
-author: "朱珩瑜"
-date: "`r Sys.Date()`"
-documentclass: ctexart
-margin: 
-output:
-  prettydoc::html_pretty:
-    theme: architect
-    highlight: github
----
-
 # 1. 原始数据的质控与裁剪
 
 DamID-seq的原始数据是fastq格式，与其他二代测序数据相同，都需要事先进行质控和接头/低质量碱基裁剪后才能放心使用。在DCL data server上，我们使用fastqc和trim_galore软件进行操作。
